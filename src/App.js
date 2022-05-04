@@ -1,9 +1,9 @@
 import React from "react";
 
-import { TestComponent } from './components';
+import { TestComponent, Effects, Beers } from "./components";
 
 const App = () => {
-    return <TestComponent />
-}
+  return <Effects />;
+};
 
 export default App;
